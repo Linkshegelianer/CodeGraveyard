@@ -1,0 +1,95 @@
+HTML:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё описание</title>
+  </head>
+  <body>
+    <main>
+      <h1>Лера</h1>
+      <h2>Специалист по глазированным сыркам</h2>
+      <section>
+        <h2>Образование</h2>
+          <ul>
+            <li>Чебурашка</li>
+            <li>Крокодил Гена</li>
+            <li>Шапокляк</li>
+            <li>Крыса Лариса</li>
+          </ul>
+        </section>
+      <section>
+        <h2>Привычки</h2>
+          <ul>
+            <li>Чебурашка</li>
+            <li>Крокодил Гена</li>
+            <li>Шапокляк</li>
+            <li>Крыса Лариса</li>
+          </ul>
+        </section>
+      <section>
+        <h2>Доп. информация</h2>
+        </section>
+    </main>
+  </body>
+</html>
+
+CSS:
+body {
+  margin: 0;
+
+  font-size: 18px;
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 60px;
+  text-align: center;
+}
+
+
+h2 {
+
+  margin-top: 0px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  text-align: center;
+  
+
+  border-bottom: 2px solid #e3e3e3;
+}
+
+main {
+  width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+section > h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  text-align: left;
+  border-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
